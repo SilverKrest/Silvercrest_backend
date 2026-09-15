@@ -12,6 +12,6 @@ async def list_positions():
             "property_title": "Vineyard Estate",
             "shares": 40,
             "share_price": 8000,
-            "dummy": True,
+            "sample": True,
         }
     ]

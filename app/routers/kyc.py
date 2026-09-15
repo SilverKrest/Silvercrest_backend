@@ -10,5 +10,5 @@ async def get_kyc():
         "status": "verified",
         "legal_name": "Demo Investor",
         "country": "US",
-        "dummy": True,
+        "sample": True,
     }

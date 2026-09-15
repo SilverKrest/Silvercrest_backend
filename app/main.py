@@ -21,7 +21,7 @@ from app.routers import (
 
 app = FastAPI(
     title="SilverKrest Backend",
-    description="API & indexer for tokenized real estate on Stellar (dummy data v0.2)",
+    description="API & indexer for tokenized real estate on Stellar (sample data v0.2)",
     version="0.2.0",
 )
 

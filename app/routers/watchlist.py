@@ -8,15 +8,15 @@ class WatchItem(BaseModel):
     property_id: str
 
 
-DUMMY = [{"property_id": "prop_001"}]
+SAMPLE = [{"property_id": "prop_001"}]
 
 
 @router.get("")
 async def get_watchlist():
-    return DUMMY
+    return SAMPLE
 
 
 @router.post("")
 async def add_watch(item: WatchItem):
-    DUMMY.append({"property_id": item.property_id})
+    SAMPLE.append({"property_id": item.property_id})
     return item

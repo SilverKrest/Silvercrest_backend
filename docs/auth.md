@@ -1,3 +1,3 @@
 # Auth
 
-No real auth in dummy mode.
+No real auth in sample mode.

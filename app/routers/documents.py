@@ -10,7 +10,7 @@ async def list_documents(property_id: str = Query(...)):
             "id": "doc_001",
             "property_id": property_id,
             "kind": "deed",
-            "title": "Dummy deed",
-            "uri": "ipfs://QmDummyDeed",
+            "title": "Sample deed",
+            "uri": "ipfs://QmCatalogDeed",
         }
     ]

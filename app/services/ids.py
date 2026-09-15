@@ -1,4 +1,4 @@
-"""Dummy id generators."""
+"""Sample id generators."""
 
 
 def ping() -> str:

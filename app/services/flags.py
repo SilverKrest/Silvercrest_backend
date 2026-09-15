@@ -1,4 +1,4 @@
-"""Feature flags for dummy mode."""
+"""Feature flags for sample mode."""
 
 
 def ping() -> str:

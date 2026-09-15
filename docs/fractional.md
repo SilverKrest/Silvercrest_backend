@@ -1,3 +1,3 @@
 # Fractional endpoint
 
-Returns dummy share lots.
+Returns sample share lots.

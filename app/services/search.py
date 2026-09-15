@@ -1,4 +1,4 @@
-"""Dummy search ranking."""
+"""Sample search ranking."""
 
 
 def ping() -> str:

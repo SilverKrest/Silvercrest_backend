@@ -1,4 +1,4 @@
-"""Dummy string cleanup."""
+"""Sample string cleanup."""
 
 
 def ping() -> str:

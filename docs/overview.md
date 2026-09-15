@@ -1,3 +1,3 @@
 # Backend overview
 
-FastAPI dummy indexer for SilverKrest.
+FastAPI sample indexer for SilverKrest.

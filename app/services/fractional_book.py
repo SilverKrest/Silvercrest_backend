@@ -1,4 +1,4 @@
-"""Dummy share book."""
+"""Sample share book."""
 
 
 def ping() -> str:

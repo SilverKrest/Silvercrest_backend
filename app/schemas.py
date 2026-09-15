@@ -73,4 +73,4 @@ class NotificationOut(BaseModel):
 class HealthOut(BaseModel):
     status: str = "ok"
     network: str
-    dummy: bool = True
+    sample: bool = True

@@ -1,6 +1,6 @@
 # SilverKrest Backend
 
-FastAPI dummy indexer and REST API for tokenized real estate on Stellar.
+FastAPI sample indexer and REST API for tokenized real estate on Stellar.
 
 The `app/` package serves health, properties, listings, offers, search, insights, agents, notifications, KYC, fractional lots, documents, and stats. Payloads are simulated.
 

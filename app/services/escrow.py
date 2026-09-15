@@ -1,4 +1,4 @@
-"""Dummy escrow state machine notes."""
+"""Sample escrow state machine notes."""
 
 
 def ping() -> str:

@@ -10,7 +10,7 @@ async def list_transactions():
             "id": "tx_001",
             "kind": "tokenize",
             "property_title": "Sunny Beachfront Villa",
-            "hash": "abc123dummyhash0001",
+            "hash": "abc123samplehash0001",
             "status": "confirmed",
             "timestamp": 1697000000,
         }

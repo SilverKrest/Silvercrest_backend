@@ -1,4 +1,4 @@
-"""Dummy valuation helpers."""
+"""Sample valuation helpers."""
 
 
 def ping() -> str:

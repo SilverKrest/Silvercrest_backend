@@ -1,4 +1,4 @@
-"""Dummy geocoding table."""
+"""Sample geocoding table."""
 
 
 def ping() -> str:

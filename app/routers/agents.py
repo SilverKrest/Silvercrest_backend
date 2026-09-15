@@ -3,7 +3,7 @@ from app.schemas import AgentOut
 
 router = APIRouter(prefix="/api/agents", tags=["Agents"])
 
-DUMMY = [
+SAMPLE = [
     {
         "id": "agent_001",
         "name": "Elena Vasquez",
@@ -18,12 +18,12 @@ DUMMY = [
 
 @router.get("", response_model=list[AgentOut])
 async def list_agents():
-    return DUMMY
+    return SAMPLE
 
 
 @router.get("/{agent_id}", response_model=AgentOut)
 async def get_agent(agent_id: str):
-    for row in DUMMY:
+    for row in SAMPLE:
         if row["id"] == agent_id:
             return row
     raise HTTPException(status_code=404, detail="Agent not found")

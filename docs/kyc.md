@@ -1,3 +1,3 @@
 # KYC endpoint
 
-Returns a dummy verified profile.
+Returns a sample verified profile.

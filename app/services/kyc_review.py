@@ -1,4 +1,4 @@
-"""Dummy KYC queue."""
+"""Sample KYC queue."""
 
 
 def ping() -> str:

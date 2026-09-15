@@ -1,4 +1,4 @@
-"""Dummy counters."""
+"""Sample counters."""
 
 
 def ping() -> str:

@@ -1,4 +1,7 @@
-"""Dummy property catalog served by the API."""
+"""Sample property catalog served by the API."""
+
+from importlib import import_module
+from pathlib import Path
 
 PROPERTIES = {
     "prop_001": {
@@ -16,3 +19,15 @@ PROPERTIES = {
         "featured": True,
     }
 }
+
+
+def _merge_catalog_fixtures() -> None:
+    data_dir = Path(__file__).parent
+    for path in sorted(data_dir.glob("prop_*.py")):
+        mod = import_module(f"app.data.{path.stem}")
+        rec = getattr(mod, "RECORD", None)
+        if isinstance(rec, dict) and rec.get("id"):
+            PROPERTIES[rec["id"]] = rec
+
+
+_merge_catalog_fixtures()

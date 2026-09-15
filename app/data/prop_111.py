@@ -1,4 +1,4 @@
-"""Dummy fixture prop_111."""
+"""Sample fixture prop_111."""
 
 RECORD = {
     "id": "prop_111",

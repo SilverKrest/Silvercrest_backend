@@ -1,4 +1,4 @@
-"""Dummy notification fan-out."""
+"""Sample notification fan-out."""
 
 
 def ping() -> str:

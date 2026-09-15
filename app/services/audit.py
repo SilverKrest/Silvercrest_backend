@@ -1,4 +1,4 @@
-"""Dummy audit log."""
+"""Sample audit log."""
 
 
 def ping() -> str:

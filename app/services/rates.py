@@ -1,4 +1,4 @@
-"""Dummy cap-rate table."""
+"""Sample cap-rate table."""
 
 
 def ping() -> str:

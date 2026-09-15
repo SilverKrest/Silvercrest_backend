@@ -1,4 +1,4 @@
-"""Dummy image URL helpers."""
+"""Sample image URL helpers."""
 
 
 def ping() -> str:

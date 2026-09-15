@@ -1,4 +1,4 @@
-"""In-memory dummy cache."""
+"""In-memory sample cache."""
 
 
 def ping() -> str:
