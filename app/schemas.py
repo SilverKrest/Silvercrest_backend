@@ -41,6 +41,12 @@ class OfferOut(BaseModel):
     created_at: int
 
 
+class OfferCreate(BaseModel):
+    listing_id: str
+    buyer: str
+    price: int = Field(gt=0)
+
+
 class AgentOut(BaseModel):
     id: str
     name: str
@@ -74,3 +80,7 @@ class HealthOut(BaseModel):
     status: str = "ok"
     network: str
     sample: bool = True
+    version: str = "0.3.1"
+    horizon_ok: bool = False
+    horizon_url: str = ""
+    contract_id: Optional[str] = None
