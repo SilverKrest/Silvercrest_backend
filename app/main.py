@@ -22,7 +22,7 @@ from app.routers import (
 app = FastAPI(
     title="SilverKrest Backend",
     description="API and catalog indexer for tokenized real estate on Stellar",
-    version="0.3.0",
+    version="0.3.1",
 )
 
 origins = ["*"] if CORS_ORIGINS == ["*"] else CORS_ORIGINS

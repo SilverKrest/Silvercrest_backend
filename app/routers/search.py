@@ -12,5 +12,7 @@ async def search_properties(q: str = Query(..., min_length=1)):
     return [
         p
         for p in PROPERTIES.values()
-        if query in p["title"].lower() or query in p["location"].lower()
+        if query in p["title"].lower()
+        or query in p["location"].lower()
+        or query in p["id"].lower()
     ]

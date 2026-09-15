@@ -1,5 +1,7 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+
+from app.data.properties import PROPERTIES
 
 router = APIRouter(prefix="/api/watchlist", tags=["Watchlist"])
 
@@ -18,5 +20,7 @@ async def get_watchlist():
 
 @router.post("")
 async def add_watch(item: WatchItem):
+    if item.property_id not in PROPERTIES:
+        raise HTTPException(status_code=404, detail="Property not found")
     SAMPLE.append({"property_id": item.property_id})
     return item
